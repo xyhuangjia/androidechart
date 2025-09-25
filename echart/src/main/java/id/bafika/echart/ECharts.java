@@ -68,7 +68,7 @@ public class ECharts extends RelativeLayout {
         settings.setJavaScriptEnabled(true);
         settings.setLoadWithOverviewMode(true);
         settings.setDomStorageEnabled(true);
-        settings.setAppCacheEnabled(false);
+//        settings.setAppCacheEnabled(false);
 
         webView.clearCache(true);
         webView.requestFocusFromTouch();

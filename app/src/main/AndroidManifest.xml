@@ -12,7 +12,9 @@
         android:networkSecurityConfig="@xml/network_config"
         android:theme="@style/Theme.AndroidEChart"
         tools:ignore="UnusedAttribute">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
